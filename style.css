@@ -3,7 +3,11 @@ body {
 }
 
 .header {
-  border: 1px solid black;
+  display: flex;
+}
+
+.header img{
+  width: 200px;
 }
 
 .nav {
@@ -62,4 +66,9 @@ body {
 
 .map-box img {
   width: 500px;
+}
+
+.footer{
+  background-color: rgb(201, 191, 230);
+  color: rgb(0, 0, 0);
 }
