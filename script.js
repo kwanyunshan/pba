@@ -8,7 +8,7 @@ $(document).on("pagecreate", function () {
     let phone = $("#phone").val();
 
     if (name === "" || email === "" || phone === "") {
-      alert("Please fill in required fields!");
+      falert("Please fill in required fields!");
       return;
     }
 
@@ -18,7 +18,7 @@ $(document).on("pagecreate", function () {
     }
 
     if (phone.length < 10) {
-      alert("Invalid phone number!");
+      falert("Invalid phone number!");
       return;
     }
 
